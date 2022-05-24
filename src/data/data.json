@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "type": "category",   
+            "title": "Бакалейные товары"
+        },
+        {
+            "type": "category",   
+            "title": "Чай, кофе, какао"
+        },
+        {
+            "type": "category",   
+            "title": "Кофе в пакетиках"
+        },
+        {
+            "type": "product",
+            "articul": 18763,
+            "title": "Кофе \"Нескафе\" классик 3в1 (1\\20)",
+            "attachment": 20,
+            "unit": "бл.",
+            "priceforone": 10,
+            "summ": 200,
+            "image": "https://marmeladkakms.ru/uploads/product/25726e63782ae0eececa44dcd734e76e.jpg",
+            "canSplitted": false
+        },
+        {
+            "type": "category",   
+            "title": "Чай в пакетиках"
+        },
+        {
+            "type": "product",
+            "articul": 34775,
+            "title": "Чай \"Гита\" (Индийский) черн. 2гх100п., 1/16",
+            "attachment": 1,
+            "unit": "шт.",
+            "priceforone": 99,
+            "summ": 99,
+            "image": "https://marmeladkakms.ru/uploads/product/e2c32e2dfdf1ed75f1bca4de6fcc1010.jpg",
+            "canSplitted": true
+        },
+        {
+            "type": "product",
+            "articul": 35814,
+            "title": "Чай \"Гринфилд\" Классик брэкфест 1, 5гх25п",
+            "attachment": 1,
+            "unit": "шт.",
+            "priceforone": 85,
+            "summ": 85,
+            "image": "https://marmeladkakms.ru/uploads/product/e2c32e2dfdf1ed75f1bca4de6fcc1010.jpg",
+            "canSplitted": false
+        }
+
+
+
+    ]
+
+
+}
