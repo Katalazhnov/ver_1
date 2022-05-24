@@ -10,7 +10,7 @@
 
     <hr>
 
-    <div class="contacts">
+    <div>
       <b-row>
         <b-col >
           <h3>Адрес</h3>
@@ -25,23 +25,29 @@
       </b-row>
     </div>
 
-    <div id="map" style="width: 600px; height: 400px">
+    <hr>
+
+ 
+
+    <div class="map">
+
+      <h3 class="maptext">Карта проезда</h3>
+
       <yandex-map
-        :coords="[50.552318, 137.008680]"
+        :coords="coords"
+        zoom="15"
         :settings="settings"
-        zoom="10">
+        style="width: 100%; height: 100%;"
+      >
         <!--Markers-->
       </yandex-map>
     </div>
-
   </div>
 </template>
 
 <script>
 import { yandexMap } from 'vue-yandex-maps'
 import { mapGetters } from "vuex";
-
-
 
 export default {
   name: 'LogoBox',
@@ -67,6 +73,14 @@ export default {
 <style scoped>
   a {
     color: red;
+  }
+
+  .map {
+    height: 400px;
+    margin-top: 30px;
+  }
+  .maptext {
+    margin-bottom: 30px;
   }
   .namebox {
     background-color: rgba(238, 238, 238, 0.5);
